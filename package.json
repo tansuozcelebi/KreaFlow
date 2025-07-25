@@ -1,0 +1,44 @@
+{
+  "name": "annual-leave-approval-flow",
+  "version": "1.0.0",
+  "description": "Yıllık izin onay süreci React Flow ile görselleştiren uygulama",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "reactflow": "^11.11.0",
+    "styled-components": "^6.1.8",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1",
+    "react-icons": "^4.12.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
