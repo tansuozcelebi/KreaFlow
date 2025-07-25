@@ -177,4 +177,4 @@ Sorularınız veya önerileriniz için:
 
 ---
 
-**Not**: Bu uygulama demo amaçlıdır. Gerçek production kullanımı için güvenlik, performans ve ölçeklenebilirlik geliştirmeleri yapılmalıdır. 
+**Not**: Bu uygulama demo amaçlıdır. Gerçek production kullanımı için güvenlik, performans ve ölçeklenebilirlik geliştirmeleri yapılmalıdır.
